@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "esempio_locale": {
+      "command": "npx",
+      "args": ["-y", "nome-del-pacchetto-mcp"],
+      "env": {"API_KEY": "${ESEMPIO_API_KEY}"},
+      "tools": ["solo_questo_tool", "e_questo"]
+    },
+    "esempio_remoto": {
+      "url": "https://esempio.com/mcp",
+      "headers": {"Authorization": "Bearer ${ESEMPIO_TOKEN}"},
+      "disabled": true
+    }
+  }
+}

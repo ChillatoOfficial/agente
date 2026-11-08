@@ -1,0 +1,7 @@
+git+https://github.com/ChillatoOfficial/agentecore.git
+rich
+prompt_toolkit
+requests
+httpx
+pydantic>=2.12.0
+-r requirements-mcp.txt
